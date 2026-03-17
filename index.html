@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Q4 Drill 1</title>
+    <style>
+        body{
+            background-image: url(https://www.act-news.com/wp-content/uploads/2019/03/electricity_towers.jpg);
+            font-family:Arial;
+        }
+
+        .box{
+            background:#f4f4f4;
+            padding:20px;
+            border-radius:15px;
+            width:350px;
+            margin:auto;
+            margin-top:120px;
+            color:rgb(10, 10, 10);
+        }
+
+        button{
+            background:#fffef8;
+            border:none;
+            padding:8px 15px;
+            border-radius:5px;
+        }
+
+        input{
+            padding:5px;
+            width:200px;
+        }
+
+        .error{
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 14px;
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+
+<div class="box text-center">
+
+    <h2>Electricity Consumption Checker</h2>
+    <p>Enter your monthly electricity usage</p>
+
+    <input type="number" id="kwh">
+    
+    <button onclick="classify()">Consumption Classification</button>
+    <script src="main.js"></script>
+    <p id="error" class="error"></p>
+
+</div>
+
+
+</body>
+</html>
